@@ -429,3 +429,8 @@
 	Security Fix: Updated log output to prevent specific kinds of logged requests from displaying without sanitization. Thanks to Slavco Mihajloski for contacting us about this issue.
 	Bug Fix: Corrected a settings description typo in Global Settings.
 	Bug Fix: Fixed bug that could result in issues authenticating over XML-RPC when the WordPress Tweaks > Multiple Authentication Attempts per XML-RPC Request setting is set to "Block".
+2.5.7 - 2016-10-10 - Chris Jean
+	Bug Fix: Removed the "Wget" user agent from the Hack Repair blacklist as it can block wp-cron jobs on some hosts.
+	Enhancement: Added new Daily Digest email design.
+2.5.8 - 2016-10-10 - Chris Jean
+	Bug Fix: Fixed error "PHP message: PHP Fatal error:  'continue' not in the 'loop' or 'switch' context".
