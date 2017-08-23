@@ -677,3 +677,6 @@
 	Removed Old Feature: Removed the "Replace jQuery With a Safe Version" feature as its use (protecting against a specific jQuery bug: https://bugs.jquery.com/ticket/9521) is many years old and is no longer a concern.
 	Bug Fix: Bumped version number of some scripts to ensure that they refresh properly.
 	Bug Fix: Fixed way to work around Hide Backend on some hosts.
+6.5.1 - 2017-08-23 - Chris Jean & Timothy Jacobs
+	Bug Fix: Fixed logical error that prevented backups from executing.
+	Bug Fix: Fixed issue that could cause database locks to flood the database.
